@@ -88,7 +88,7 @@ export default function RevealPage() {
         {winners.length > 0 && (
           <div className="bg-[#faf8f5] backdrop-blur-sm rounded-3xl p-6 md:p-10 shadow-2xl border-2 border-[#c4b49a]/30">
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-              {winners.map((winner, idx) => (
+              {winners.map((winner) => (
                 <div
                   key={winner.id}
                   className="rounded-2xl p-4 md:p-5 text-center transform hover:scale-105 transition-all relative group shadow-lg"
