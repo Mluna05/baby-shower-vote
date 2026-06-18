@@ -1,0 +1,27 @@
+<svg width="200" height="300" viewBox="0 0 200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pampas grass decoration for left corner -->
+  <g opacity="0.3">
+    <!-- Stem 1 -->
+    <path d="M 40 300 Q 35 250 40 200 Q 42 150 45 100 Q 47 50 50 20" stroke="#CBBBA5" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Plume 1 -->
+    <ellipse cx="50" cy="15" rx="15" ry="35" fill="#CBBBA5" opacity="0.6"/>
+    <ellipse cx="48" cy="18" rx="12" ry="30" fill="#E8DCC8" opacity="0.5"/>
+    
+    <!-- Stem 2 -->
+    <path d="M 80 300 Q 78 250 75 200 Q 73 150 70 100 Q 68 50 65 25" stroke="#CBBBA5" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Plume 2 -->
+    <ellipse cx="65" cy="20" rx="13" ry="32" fill="#CBBBA5" opacity="0.6"/>
+    <ellipse cx="63" cy="23" rx="10" ry="28" fill="#E8DCC8" opacity="0.5"/>
+    
+    <!-- Stem 3 -->
+    <path d="M 110 300 Q 105 250 102 200 Q 100 150 98 100 Q 96 50 94 30" stroke="#CBBBA5" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Plume 3 -->
+    <ellipse cx="94" cy="25" rx="11" ry="28" fill="#CBBBA5" opacity="0.5"/>
+    <ellipse cx="92" cy="28" rx="8" ry="24" fill="#E8DCC8" opacity="0.4"/>
+    
+    <!-- Decorative leaves -->
+    <path d="M 45 150 Q 30 145 25 140" stroke="#B79B5B" stroke-width="1" fill="none" opacity="0.4"/>
+    <path d="M 70 180 Q 55 175 48 170" stroke="#B79B5B" stroke-width="1" fill="none" opacity="0.4"/>
+    <path d="M 100 120 Q 85 118 78 115" stroke="#B79B5B" stroke-width="1" fill="none" opacity="0.4"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>Generate Pampas SVG</title></head>
+<body>
+<canvas id="canvas" width="400" height="400"></canvas>
+<script>
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+ctx.fillStyle = '#F8F5EE';
+ctx.fillRect(0, 0, 400, 400);
+// Draw pampas grass
+ctx.strokeStyle = '#C4A35A';
+ctx.lineWidth = 2;
+for(let i = 0; i < 5; i++) {
+  const x = 100 + i * 50;
+  ctx.beginPath();
+  ctx.moveTo(x, 400);
+  ctx.quadraticCurveTo(x - 20, 300, x, 100);
+  ctx.stroke();
+  // Plume
+  ctx.fillStyle = 'rgba(203, 187, 165, 0.6)';
+  for(let j = 0; j < 20; j++) {
+    const py = 100 + j * 5;
+    const width = 30 - Math.abs(j - 10) * 2;
+    ctx.fillRect(x - width/2, py, width, 3);
+  }
+}
+console.log(canvas.toDataURL());
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<svg width="400" height="100" viewBox="0 0 400 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Decorative golden curves -->
+  <path d="M 0 50 Q 100 20 200 50 Q 300 80 400 50" stroke="#B79B5B" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M 0 55 Q 100 25 200 55 Q 300 85 400 55" stroke="#C4A35A" stroke-width="0.5" fill="none" opacity="0.2"/>
+</svg>
